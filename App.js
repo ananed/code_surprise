@@ -64,7 +64,11 @@ function App() {
 
   return (
     <div className="App">
-        <div className="texto">{message}</div>
+      <div className="redes">
+      <img scr="image.jpg" alt="me" className="image" />
+        <p>@ananedelcu_</p>
+      </div>
+      <div className="texto">{message}</div>
     </div>
   );
 }
